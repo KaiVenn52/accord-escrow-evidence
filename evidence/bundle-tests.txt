@@ -1,0 +1,17 @@
+✔ portable evidence round trip retains receipt and evidence level (17.4882ms)
+✔ changed delivery without recomputed receipt is rejected (5.1597ms)
+✔ changed beneficiary without recomputed receipt is rejected (4.0509ms)
+✔ new fingerprint does not promote a blocked document (5.0441ms)
+✔ import cannot assert authenticated public RPC or CRE execution (3.9624ms)
+✔ malformed, oversized and unsafe identifiers are rejected (3.6985ms)
+✔ receipt by itself cannot impersonate an evidence bundle (1.8036ms)
+✔ document markup is preserved as data (1.7505ms)
+✔ invalid dates and oversized UTF-8 text cannot enter the view (22.3559ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 324.9942

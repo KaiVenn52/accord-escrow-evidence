@@ -1,0 +1,16 @@
+node_modules/
+partial_node_modules/
+dist/
+tools/
+.env
+.cre/
+scripts/.seed-simulation.mjs
+scripts/.check-providers.mjs
+scripts/.ui-qa.mjs
+scripts/.demo.mjs
+scripts/.capture-cre-result.mjs
+tests/.*.mjs
+release/
+.registration-audit.mjs
+*.wasm
+!evidence/*.wasm

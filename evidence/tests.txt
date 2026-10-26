@@ -1,0 +1,48 @@
+✔ portable evidence round trip retains receipt and evidence level (34.4984ms)
+✔ changed delivery without recomputed receipt is rejected (11.3535ms)
+✔ changed beneficiary without recomputed receipt is rejected (6.1448ms)
+✔ new fingerprint does not promote a blocked document (7.7024ms)
+✔ import cannot assert authenticated public RPC or CRE execution (8.0383ms)
+✔ malformed, oversized and unsafe identifiers are rejected (2.595ms)
+✔ receipt by itself cannot impersonate an evidence bundle (4.0854ms)
+✔ document markup is preserved as data (2.8414ms)
+✔ invalid dates and oversized UTF-8 text cannot enter the view (37.1358ms)
+This version of µWS is not compatible with your Node.js build:
+
+Error: Cannot find module '../binaries/uws_win32_x64_137.node'
+Require stack:
+- D:\.codex\visualizations\2026\10\18\01a14f6d-6d7c-7773-aec3-5d51605c29fe\bli-cre-escrow-evidence-runtime\deps\node_modules\ganache\node_modules\@trufflesuite\uws-js-unofficial\src\uws.js
+- D:\.codex\visualizations\2026\10\18\01a14f6d-6d7c-7773-aec3-5d51605c29fe\bli-cre-escrow-evidence-runtime\deps\node_modules\ganache\dist\node\core.js
+Falling back to a NodeJS implementation; performance may be degraded.
+
+
+✔ funded Solidity escrow enforces payer, acceptance, challenge, dispute and single release (8379.7432ms)
+✔ matching evidence produces a review receipt, never a payment authorization (14.2613ms)
+✔ tampered fails closed (3.3217ms)
+✔ disputed fails closed (2.0057ms)
+✔ stale fails closed (3.7225ms)
+✔ changed fails closed (3.8048ms)
+✔ pending fails closed (1.9335ms)
+✔ wrong chain (1.6785ms)
+✔ wrong contract (1.8861ms)
+✔ wrong milestone (4.9808ms)
+✔ changed amount (3.6532ms)
+✔ already released (3.0169ms)
+✔ unfinalized (1.7048ms)
+✔ future snapshot (1.2223ms)
+✔ wrong onchain commitment (1.2897ms)
+✔ missing acceptance (2.5458ms)
+✔ late acceptance (1.4936ms)
+✔ zero acceptance timestamp is invalid acceptance (1.8927ms)
+✔ receipt changes with amount, source level, block or evaluation time (5.6451ms)
+✔ invalid schema is rejected (1.0954ms)
+✔ challenge period exact boundary is reviewable (1.2144ms)
+✔ object key order cannot change the receipt (2.405ms)
+ℹ tests 31
+ℹ suites 0
+ℹ pass 31
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 11076.0951

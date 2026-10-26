@@ -1,0 +1,17 @@
+{
+  "schedule": "*/30 * * * * *",
+  "apiUrl": "http://127.0.0.1:8756/delivery",
+  "chainName": "ethereum-testnet-sepolia",
+  "evidenceLevel": "local-evm",
+  "terms": {
+    "id": "M-014",
+    "artifactHash": "0xef4f689c6f01675fc69bab081e361f6c1a69eb81597a717ced487911aafc6b4a",
+    "payee": "0xFFcf8FDEE72ac11b5c542428B35EEF5769C409f0",
+    "amountWei": "15000000000000000",
+    "chainId": 11155111,
+    "contract": "0xe78a0f7e598cc8b0bb87894b0f60dd2a88d6a8ab",
+    "deadline": 1792857052,
+    "challengeSeconds": 60,
+    "policyVersion": "1"
+  }
+}

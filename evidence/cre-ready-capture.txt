@@ -1,0 +1,9 @@
+{
+  "sourceLog": "evidence/cre-simulation-success.txt",
+  "status": "REVIEW_READY",
+  "receiptHash": "0x8cdeb89e5bb111437ec0f3b89c921f06475e064035b5b92fdd4042c7c3e79d43",
+  "blockNumber": "319",
+  "pinnedBlockHashMatches": true,
+  "reproducedFingerprint": true,
+  "sourceAuthentication": "CLI execution log; portable JSON remains unsigned"
+}

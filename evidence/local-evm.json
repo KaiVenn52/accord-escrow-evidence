@@ -1,0 +1,59 @@
+{
+  "kind": "local-evm-integration",
+  "network": "Ganache private chain, chainId 11155111; NOT public Sepolia",
+  "compiler": "0.8.37+commit.f401782d.Emscripten.clang",
+  "deploymentTx": "0xb980018b2554e3d638c32ddd8ab3887a0a6e56d3b6d1d36a42554f4dc204361e",
+  "contract": "0xe78a0f7e598cc8b0bb87894b0f60dd2a88d6a8ab",
+  "receipt": {
+    "status": "REVIEW_READY",
+    "reasons": [],
+    "receiptHash": "0x1816e990559090247e60abfb7e0e1e87ed6740d6b3059f287e2e30420bcf4431",
+    "artifactHash": "0xef4f689c6f01675fc69bab081e361f6c1a69eb81597a717ced487911aafc6b4a",
+    "authorization": "HUMAN_REQUIRED",
+    "evidenceLevel": "local-evm",
+    "terms": {
+      "id": "M-014",
+      "artifactHash": "0xef4f689c6f01675fc69bab081e361f6c1a69eb81597a717ced487911aafc6b4a",
+      "payee": "0xFFcf8FDEE72ac11b5c542428B35EEF5769C409f0",
+      "amountWei": "15000000000000000",
+      "chainId": 11155111,
+      "contract": "0xe78a0f7e598cc8b0bb87894b0f60dd2a88d6a8ab",
+      "deadline": 1792781239,
+      "challengeSeconds": 3600,
+      "policyVersion": "1"
+    },
+    "snapshot": {
+      "id": "M-014",
+      "chainId": 11155111,
+      "contract": "0xe78a0f7e598cc8b0bb87894b0f60dd2a88d6a8ab",
+      "payee": "0xFFcf8FDEE72ac11b5c542428B35EEF5769C409f0",
+      "amountWei": "15000000000000000",
+      "artifactHash": "0xef4f689c6f01675fc69bab081e361f6c1a69eb81597a717ced487911aafc6b4a",
+      "disputed": false,
+      "released": false,
+      "blockNumber": "3",
+      "blockHash": "0xc3afd40fafdc70cfe39198cb0a62cb5b9ddf8d7eaf469a4fa2c8722040c83dd6",
+      "observedAt": 1792698444,
+      "finalized": true,
+      "evidenceLevel": "local-evm"
+    },
+    "evaluatedAt": 1792698444
+  },
+  "releaseTx": "0xaeea2580e152040785c4cff7476c145e88c968c5c3b9b6da945deb537844882b",
+  "checks": [
+    "Solidity compilation",
+    "Deployment and funded balance",
+    "Outsider cannot accept",
+    "Release without acceptance blocked",
+    "Repeated acceptance blocked",
+    "Challenge window enforced",
+    "Shared policy evaluates real contract read",
+    "Outsider cannot release",
+    "Payer releases exact amount after challenge",
+    "Double release blocked",
+    "Released state holds",
+    "Dispute blocks release"
+  ],
+  "publicDeployment": false,
+  "creSimulation": false
+}

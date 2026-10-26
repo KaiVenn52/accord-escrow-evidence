@@ -1,0 +1,35 @@
+{
+  "artifactHash": "0xef4f689c6f01675fc69bab081e361f6c1a69eb81597a717ced487911aafc6b4a",
+  "authorization": "HUMAN_REQUIRED",
+  "evaluatedAt": 1792772245,
+  "evidenceLevel": "local-evm",
+  "reasons": [],
+  "receiptHash": "0x8cdeb89e5bb111437ec0f3b89c921f06475e064035b5b92fdd4042c7c3e79d43",
+  "snapshot": {
+    "amountWei": "15000000000000000",
+    "artifactHash": "0xef4f689c6f01675fc69bab081e361f6c1a69eb81597a717ced487911aafc6b4a",
+    "blockHash": "0x6d8998736425adb8dde51fa3d644fdc94e872f3051d140340873a26051961840",
+    "blockNumber": "319",
+    "chainId": 11155111,
+    "contract": "0xe78a0f7e598cc8b0bb87894b0f60dd2a88d6a8ab",
+    "disputed": false,
+    "evidenceLevel": "local-evm",
+    "finalized": true,
+    "id": "M-014",
+    "observedAt": 1792772245,
+    "payee": "0xFFcf8FDEE72ac11b5c542428B35EEF5769C409f0",
+    "released": false
+  },
+  "status": "REVIEW_READY",
+  "terms": {
+    "amountWei": "15000000000000000",
+    "artifactHash": "0xef4f689c6f01675fc69bab081e361f6c1a69eb81597a717ced487911aafc6b4a",
+    "chainId": 11155111,
+    "challengeSeconds": 60,
+    "contract": "0xe78a0f7e598cc8b0bb87894b0f60dd2a88d6a8ab",
+    "deadline": 1792857052,
+    "id": "M-014",
+    "payee": "0xFFcf8FDEE72ac11b5c542428B35EEF5769C409f0",
+    "policyVersion": "1"
+  }
+}

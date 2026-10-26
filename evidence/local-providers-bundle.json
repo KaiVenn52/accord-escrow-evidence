@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "accord-evidence/1",
+  "terms": {
+    "id": "M-014",
+    "artifactHash": "0xef4f689c6f01675fc69bab081e361f6c1a69eb81597a717ced487911aafc6b4a",
+    "payee": "0xFFcf8FDEE72ac11b5c542428B35EEF5769C409f0",
+    "amountWei": "15000000000000000",
+    "chainId": 11155111,
+    "contract": "0xe78a0f7e598cc8b0bb87894b0f60dd2a88d6a8ab",
+    "deadline": 1792857052,
+    "challengeSeconds": 60,
+    "policyVersion": "1"
+  },
+  "delivery": {
+    "id": "M-014",
+    "body": "Milestone M-014: source archive, deployment guide and acceptance checklist delivered.",
+    "accepted": true,
+    "acceptedAt": 1792770656
+  },
+  "snapshot": {
+    "id": "M-014",
+    "chainId": 11155111,
+    "contract": "0xe78a0f7e598cc8b0bb87894b0f60dd2a88d6a8ab",
+    "payee": "0xFFcf8FDEE72ac11b5c542428B35EEF5769C409f0",
+    "amountWei": "15000000000000000",
+    "artifactHash": "0xef4f689c6f01675fc69bab081e361f6c1a69eb81597a717ced487911aafc6b4a",
+    "disputed": false,
+    "released": false,
+    "blockNumber": "286",
+    "blockHash": "0x5350e37621e18891a4873699dd56dae934ffc23c7c758ff2beff3c8412eee2d5",
+    "observedAt": 1792772081,
+    "finalized": true,
+    "evidenceLevel": "local-evm"
+  },
+  "evaluatedAt": 1792772081,
+  "receiptHash": "0x27e598095bb9670896ee5768e5e6cff06738f575e5b6b9bac8fbdc7b7e6c1c15"
+}

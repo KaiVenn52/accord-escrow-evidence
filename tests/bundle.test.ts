@@ -1,0 +1,15 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {createBundle,parseBundle,MAX_BUNDLE_BYTES} from '../src/bundle';
+import {terms,delivery,snapshot,demoNow,scenarios} from '../src/fixtures';
+import {evaluate} from '../src/policy';
+const bundle=()=>createBundle(terms,delivery,snapshot,demoNow);
+test('portable evidence round trip retains receipt and evidence level',()=>{const b=bundle();assert.deepEqual(parseBundle(JSON.stringify(b)),b);});
+test('changed delivery without recomputed receipt is rejected',()=>{const b=bundle();b.delivery={...b.delivery,body:'changed'};assert.throws(()=>parseBundle(JSON.stringify(b)),/fingerprint mismatch/);});
+test('changed beneficiary without recomputed receipt is rejected',()=>{const b=bundle();b.terms={...b.terms,payee:'0x3333333333333333333333333333333333333333'};assert.throws(()=>parseBundle(JSON.stringify(b)),/fingerprint mismatch/);});
+test('new fingerprint does not promote a blocked document',()=>{const b=createBundle(terms,scenarios.tampered.delivery,snapshot,demoNow);const p=parseBundle(JSON.stringify(b));assert.equal(evaluate(p.terms,p.delivery,p.snapshot,p.evaluatedAt).status,'HOLD');});
+test('import cannot assert authenticated public RPC or CRE execution',()=>{const b=bundle();assert.throws(()=>parseBundle(JSON.stringify({...b,snapshot:{...b.snapshot,evidenceLevel:'public-rpc'}})),/Unsupported/);assert.throws(()=>parseBundle(JSON.stringify({...b,creSimulation:true})),/Unsupported/);});
+test('malformed, oversized and unsafe identifiers are rejected',()=>{assert.throws(()=>parseBundle('{'),/valid JSON/);assert.throws(()=>parseBundle(' '.repeat(MAX_BUNDLE_BYTES+1)),/128 KiB/);assert.throws(()=>parseBundle(JSON.stringify({...bundle(),terms:{...terms,id:'<img src=x>'}})),/Unsupported/);});
+test('receipt by itself cannot impersonate an evidence bundle',()=>assert.throws(()=>parseBundle(JSON.stringify({receiptHash:bundle().receiptHash})),/Unsupported/));
+test('document markup is preserved as data',()=>{const d={...delivery,body:'<script>alert(1)</script>'};const b=createBundle(terms,d,snapshot,demoNow);assert.equal(parseBundle(JSON.stringify(b)).delivery.body,d.body);});
+test('invalid dates and oversized UTF-8 text cannot enter the view',()=>{assert.throws(()=>parseBundle(JSON.stringify({...bundle(),evaluatedAt:Number.MAX_SAFE_INTEGER})),/Unsupported/);const b=createBundle(terms,{...delivery,body:'中'.repeat(12000)},snapshot,demoNow);assert.throws(()=>parseBundle(JSON.stringify(b)),/32 KiB/);});

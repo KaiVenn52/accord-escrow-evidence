@@ -1,0 +1,47 @@
+{
+  "checkedAt": "2026-10-23T16:20:56.613Z",
+  "designVersion": "Operations desk v2.2 — portable evidence",
+  "browser": "Microsoft Edge via Playwright, headless",
+  "fallback": "Browser plugin not available",
+  "url": "http://127.0.0.1:5197/",
+  "viewports": [
+    "1440x1100",
+    "1024x900",
+    "390x844"
+  ],
+  "checks": {
+    "pageIdentity": true,
+    "nonblank": true,
+    "noFrameworkOverlay": true,
+    "consoleErrors": [],
+    "allSixScenarios": true,
+    "downloadedReceipt": true,
+    "mobileNoHorizontalOverflow": true,
+    "tabletNoHorizontalOverflow": true,
+    "mobileComparisonReadable": true,
+    "rawDeliveryDisclosure": true,
+    "contractDisclosure": true,
+    "sevenReconciliationRows": true,
+    "blockedRowHighlights": true,
+    "scenarioResetDisablesExport": true,
+    "sessionHistory": true,
+    "localEvidenceImport": true,
+    "importedReceiptFingerprint": true,
+    "modifiedImportRejected": true,
+    "invalidJsonRejected": true,
+    "importReset": true,
+    "officialCliReadyReplay": true,
+    "officialCliHoldReplay": true
+  },
+  "screenshots": [
+    "ui-idle.png",
+    "ui-desktop.png",
+    "ui-hold.png",
+    "ui-tablet.png",
+    "ui-mobile.png",
+    "ui-import.png",
+    "ui-import-mobile.png",
+    "ui-cre-ready.png",
+    "ui-cre-tampered.png"
+  ]
+}

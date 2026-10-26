@@ -1,0 +1,4 @@
+{
+  "schedule":"*/30 * * * * *", "apiUrl":"https://example.invalid/approved-delivery/M-014", "chainName":"ethereum-testnet-sepolia", "evidenceLevel":"public-rpc",
+  "terms":{"id":"M-014","artifactHash":"0x0000000000000000000000000000000000000000000000000000000000000000","payee":"0x1111111111111111111111111111111111111111","amountWei":"15000000000000000","chainId":11155111,"contract":"0x0000000000000000000000000000000000000000","deadline":1792281600,"challengeSeconds":3600,"policyVersion":"1"}
+}

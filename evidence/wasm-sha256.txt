@@ -1,0 +1,6 @@
+
+Algorithm : SHA256
+Hash      : 0C1D3B2155C0A1E052FE1ED8A938EBFD7F8725BEFCC330D7D003FF28FF56FD56
+Path      : C:\Users\Dell2u\OneDrive\Documents\X创作\bli-cre-escrow-evidence\evidence\workflow.wasm
+
+

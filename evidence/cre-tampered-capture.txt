@@ -1,0 +1,9 @@
+{
+  "sourceLog": "evidence/cre-simulation-tampered.txt",
+  "status": "HOLD",
+  "receiptHash": "0x034c4f2f47ca72486d054fdff17fdfa03d4e496b3577ff4c5ba7a67a054c2094",
+  "blockNumber": "348",
+  "pinnedBlockHashMatches": true,
+  "reproducedFingerprint": true,
+  "sourceAuthentication": "CLI execution log; portable JSON remains unsigned"
+}

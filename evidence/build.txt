@@ -1,0 +1,13 @@
+
+> accord-evidence-desk@0.1.0 build
+> tsc --noEmit && vite build
+
+vite v6.4.4 building for production...
+transforming...
+✓ 466 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                  0.44 kB │ gzip:  0.31 kB
+dist/assets/index-u_V3z6Bv.css  16.22 kB │ gzip:  4.05 kB
+dist/assets/index-CBXdtVSa.js   87.36 kB │ gzip: 24.55 kB
+✓ built in 1.98s
