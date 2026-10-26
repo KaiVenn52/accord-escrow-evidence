@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-10-26T16:24:48.870Z",
+  "url": "https://kaivenn52.github.io/accord-escrow-evidence/",
+  "status": 200,
+  "browser": "Microsoft Edge via Playwright",
+  "fallback": "Browser plugin not available",
+  "viewports": [
+    "1440x1100",
+    "390x844"
+  ],
+  "checks": {
+    "pageIdentity": true,
+    "stylesheetApplied": true,
+    "sixScenarios": true,
+    "actualCliReadyReplay": true,
+    "actualCliHoldReplay": true,
+    "receiptDownload": true,
+    "mobileNoOverflow": true
+  },
+  "consoleErrors": [],
+  "failedRequests": [],
+  "failedResponses": []
+}

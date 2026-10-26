@@ -1,5 +1,7 @@
 # Publication review — Accord
 
+**Superseded by owner approval on 2026-10-27 MYT:** the owner approved `KaiVenn52`, public `accord-escrow-evidence`, MIT and GitHub Pages. Source is now public; deployment verification is recorded in `PUBLICATION.md`. The review below preserves the pre-approval proposal. Event registration and final submission still require owner confirmation.
+
 The source and execution evidence are prepared locally for review. Nothing has been published, registered or submitted.
 
 ## Concrete proposed release

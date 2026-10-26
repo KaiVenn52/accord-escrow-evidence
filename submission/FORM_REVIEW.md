@@ -1,5 +1,7 @@
 # Submission form review — 2026-10-24 MYT
 
+**Publication update, Oct 27 MYT:** the owner approved public source, MIT and GitHub Pages. The repository now exists at https://github.com/KaiVenn52/accord-escrow-evidence and the deployment is tracked in `PUBLICATION.md`. References below to a proposed release or pending license describe the Oct 24 review snapshot. The actual event form is still uninspected; publication does not resolve those eligibility questions.
+
 The actual registration and submission fields have **not** been inspected. A fresh, unauthenticated Microsoft Edge session opened the official event URL and received a human-verification page before the event content. The agent did not attempt the challenge, register, sign in to DoraHacks, submit a form or accept terms. Official CRE CLI authentication is separate from DoraHacks authentication.
 
 Evidence: `evidence/registration-public-page.txt`, `registration-public-page.png`, and `registration-public-links.json` (empty because the challenge exposed no submission links). The web reader independently returned HTTP 405. Existing official source captures remain useful for the published event description, but do not establish authenticated form requirements.

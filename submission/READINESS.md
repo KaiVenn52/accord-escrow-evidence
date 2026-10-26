@@ -1,6 +1,6 @@
 # Readiness — publication update 2026-10-27, Asia/Kuala_Lumpur
 
-**Decision: local implementation and official CRE CLI simulation evidence ready; owner approved public GitHub source, MIT license and GitHub Pages on Oct 27. Repository created and Pages configured; deployment verification follows in PUBLICATION.md. Registration and final submission remain unperformed.**
+**Decision: public GitHub source, approved MIT license and GitHub Pages demo published and verified Oct 27 MYT. Local implementation and official CRE CLI simulation evidence are available. Registration and final submission remain unperformed.**
 
 Accord is a runnable local LegalTech evidence-review prototype. On Oct 24 MYT, the official CRE CLI v1.38.0 successfully executed the compiled workflow against controlled loopback HTTP and a private EVM chain. The matching delivery returned REVIEW_READY; a second actual CLI run with altered delivery returned HOLD. Both runs exited 0 with HUMAN_REQUIRED and broadcasting disabled. These are local CLI simulations, not public Sepolia observations or live DON deployment.
 
@@ -21,7 +21,7 @@ Accord is a runnable local LegalTech evidence-review prototype. On Oct 24 MYT, t
 | Public delivery provider | NOT VERIFIED | Local HTTP seed service exists; no authenticated enterprise provider, public immutable delivery endpoint or real client identity is connected |
 | Public Sepolia contract | NOT DEPLOYED | Ganache uses chainId 11155111 for SDK compatibility. It is NOT the public Sepolia network |
 | CRE DON deployment / mainnet | NOT PERFORMED | No deployed workflow, DON execution, mainnet transaction or mainnet expenditure |
-| Hosted demo / public repository | PUBLICATION AUTHORIZED | Public KaiVenn52/accord-escrow-evidence repository created and Pages configured Oct 27; see PUBLICATION.md for deployment verification |
+| Hosted demo / public repository | PUBLISHED AND VERIFIED | Public KaiVenn52/accord-escrow-evidence, MIT; Pages deploy run 40358088020 passed; live HTTP 200, six scenarios, both CLI bundle replays, download and mobile layout verified; see PUBLICATION.md |
 | Registration / final submission | NOT PERFORMED | No organizer message, terms acceptance, registered entry or accepted submission |
 
 The UI supports six fixture scenarios and offline import of portable local evidence. `evidence/local-evm-bundle.json` comes from the actual private EVM run; it includes raw delivery, terms, snapshot, recorded evaluation time and receipt fingerprint. The browser recomputes the historical result and checks the fingerprint. Imported data remains unauthenticated: this is not a live chain query, signature verification, public-provider proof or CRE execution proof. Receipt-only exports are not complete import bundles.
@@ -40,14 +40,14 @@ The official overview was refreshed Oct 24 and explicitly labels the timeline UT
 
 Precise AI/existing-code policy, development-window restrictions, country/age/team restrictions and any separate registration cutoff were not established from the retrieved official text. See `RULES.md` and the fresh official source captures. AI-assisted implementation and dependency provenance are disclosed in `PROVENANCE.md`.
 
-A fresh unauthenticated Edge visit on Oct 24 stopped at DoraHacks human verification. The actual form therefore remains uninspected; see `FORM_REVIEW.md` and `evidence/registration-public-page.png`. CRE login does not grant DoraHacks access. The two-minute demo script is prepared, but a final video is not yet recorded or uploaded. The publication proposal is now concrete: public `KaiVenn52/accord-escrow-evidence`, proposed MIT license and GitHub Pages; these await owner confirmation. Local review packaging is reproducible with `scripts/package-review.ps1` and includes a verified ZIP manifest.
+A fresh unauthenticated Edge visit on Oct 24 stopped at DoraHacks human verification. The actual form therefore remains uninspected; see `FORM_REVIEW.md` and `evidence/registration-public-page.png`. CRE login does not grant DoraHacks access. The two-minute demo script is prepared, but a final video is not yet recorded or uploaded. Public `KaiVenn52/accord-escrow-evidence`, MIT and GitHub Pages were approved and published Oct 27. Local review packaging is reproducible with `scripts/package-review.ps1` and includes a verified ZIP manifest.
 
 ## Next sequence, with human boundaries
 
 1. Review the successful CLI logs, extracted JSON, reproduced fingerprints, UI screenshots, source/license and entry draft. Authentication is complete; credentials are managed by the official CLI and are excluded from deliverables.
 2. To repeat locally, start `npm run seed:cre`, wait for the contractual challenge window, then run `./scripts/verify-and-simulate.ps1`. The authenticated execution path is now verified. The helper stages the same checked WASM through a short ASCII path because CLI v1.38.0 rejects non-ASCII or over-97-character --wasm arguments.
 3. Confirm eligibility, AI/existing-code and payout rules on the actual registration/submission form. Successful local CRE simulation does not establish organizer acceptance of the entry or guarantee a prize.
-4. Public repository/hosting, external messages, registration and final submission require user confirmation.
+4. Public repository and hosting were approved and completed Oct 27. External messages, registration and final submission still require user confirmation.
 5. Public testnet deployment, if chosen for additional evidence, is a separate wallet/signing boundary. No such deployment was performed.
 
 ## Reproduce locally

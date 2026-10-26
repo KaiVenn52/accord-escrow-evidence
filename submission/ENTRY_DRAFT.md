@@ -21,3 +21,11 @@ Responsive English operations desk with six synthetic scenarios and offline repl
 ## Final fields to fill after user review
 
 Public repository URL, hosted demo URL if requested by the form, actual demo video URL, team identity, approved license, and successful CRE CLI evidence or deployed workflow reference. Confirm AI/existing-code policy and payout terms before submission.
+
+## Approved publication fields — Oct 27 MYT
+
+Repository: https://github.com/KaiVenn52/accord-escrow-evidence
+
+Static demo address: https://kaivenn52.github.io/accord-escrow-evidence/ (deployment verification recorded in PUBLICATION.md).
+
+Code license: MIT, approved by the owner; active text at repository-root LICENSE. Demo video and team identity remain outstanding. Public source and hosting do not establish a registered or accepted hackathon entry.

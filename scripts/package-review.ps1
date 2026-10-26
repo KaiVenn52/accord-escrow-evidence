@@ -21,7 +21,8 @@ $evidenceNames = @(
     'local-evm.json','local-evm-bundle.json','local-providers.json','local-providers-bundle.json',
     'ui-qa.json','ui-test.txt','ui-desktop.png','ui-mobile.png','ui-cre-ready.png','ui-cre-tampered.png',
     'official-overview-20261024.md','official-bounty-20261024.md',
-    'registration-public-page.txt','registration-public-page.png','registration-public-links.json'
+    'registration-public-page.txt','registration-public-page.png','registration-public-links.json',
+    'publication-run.json','public-qa.json','public-desktop.png','public-mobile.png'
 )
 $paths += $evidenceNames | ForEach-Object { 'evidence/' + $_ }
 $paths = @($paths | Sort-Object -Unique)

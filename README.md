@@ -83,4 +83,4 @@ CRE TypeScript additionally needs Bun 1.2.21+, CRE setup tools and an authentica
 
 This prototype does not establish legal delivery, authenticate an external client's identity, resolve disputes or implement refunds. A dispute freezes this demo escrow indefinitely; a production escrow needs reviewed dispute resolution, expiry/refund paths, independent security review and agreed legal terms. A digest is a commitment, not proof that a deliverable meets the contract. The UI imports portable local evidence, not authenticated CRE reports. CRE's local simulation does not establish DON fault tolerance. Avoid putting private legal documents into public URLs, logs or the public repository.
 
-AI-assisted implementation is disclosed in `submission/PROVENANCE.md`. Public repository publication, hosting, registration and final submission require user confirmation.
+AI-assisted implementation is disclosed in `submission/PROVENANCE.md`. Public source, MIT licensing and hosting were approved by the owner and completed Oct 27 MYT. Registration and final submission still require user confirmation. See [publication evidence](submission/PUBLICATION.md).
