@@ -39,5 +39,6 @@ try {
   await fileView(`cli-${name}`,`Saved official CLI simulation: ${status}`,`evidence/cre-simulation-${file}.txt · Oct 24 MYT`,`${raw.slice(start,jsonStart).trim()}\n${first}\n  ...\n${raw.split('\n').filter(l=>/^  "status"/.test(l)).join('\n')}\n\n${raw.split('\n').filter(l=>/^exit_code=/.test(l)).join('\n')}\n\n[Excerpts; full original log is in the repository.]`);
  }
  writeFileSync(`${root}/layout.json`,JSON.stringify(layout,null,2));
+ writeFileSync('video/src/layout.json',JSON.stringify(layout,null,2));
  console.log('Captured real UI states and exact saved-source excerpts.');
 }finally{await browser.close();}

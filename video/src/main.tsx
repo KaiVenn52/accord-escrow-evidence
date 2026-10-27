@@ -1,7 +1,7 @@
 import React from 'react';
 import {AbsoluteFill,Audio,Sequence,staticFile,useCurrentFrame,interpolate,Easing} from 'remotion';
 import timeline from '../timeline.json';
-import layout from '../public/textures/layout.json';
+import layout from './layout.json';
 import {PageCam} from './PageCam';
 export const SHOTS=timeline.shots;
 export const TOTAL=timeline.total;
@@ -15,7 +15,7 @@ export const Scene:React.FC<{shot:Shot,title?:string,caption?:string}>=({shot,ti
  const page=layout[shot.texture.replace('.png','') as keyof typeof layout];
  const isClose=shot.id==='close';
  return <AbsoluteFill style={{background:paper,color:navy,fontFamily:'Segoe UI,Arial,sans-serif'}}>
-  <div style={{position:'absolute',top:36,left:64,right:64,display:'flex',justifyContent:'space-between',fontSize:32,color:muted}}><span style={{color:navy,fontSize:36,fontWeight:600}}>accord <span style={{fontSize:32,fontWeight:400,marginLeft:18}}>Escrow Evidence Desk</span></span><span>{isCode?(shot.id==='workflow'?'Saved source evidence':'Saved execution evidence'):'Product walkthrough'} · {String(SHOTS.indexOf(shot)+1).padStart(2,'0')} / 09</span></div>
+  <div style={{position:'absolute',top:36,left:64,right:64,display:'flex',justifyContent:'space-between',fontSize:32,color:muted}}><span style={{color:navy,fontSize:36,fontWeight:600}}>accord <span style={{fontSize:32,fontWeight:400,marginLeft:18}}>Escrow Evidence Desk</span></span><span>{isCode?(shot.id==='workflow'?'Saved source evidence':'Saved execution evidence'):'Product walkthrough'} · {String(SHOTS.findIndex(item=>item.id===shot.id)+1).padStart(2,'0')} / 09</span></div>
   {isClose?<div style={{position:'absolute',left:128,right:128,top:275,opacity,transform:`translateY(${shift}px)`}}>
    <div style={{fontSize:72,fontWeight:600,letterSpacing:-2,marginBottom:32}}>{title}</div>
    <div style={{fontSize:36,color:muted,lineHeight:1.7}}>Reproducible delivery review with Chainlink CRE.<br/>Legal judgment and payment authorization remain human.</div>

@@ -1,0 +1,27 @@
+{
+  "scope": "Three sampled visual frames; audio timing comes from the shared timeline, not this image comparison.",
+  "results": [
+    {
+      "frame": 90,
+      "badPixels": 0,
+      "totalPixels": 2073600,
+      "ratio": 0,
+      "pass": true
+    },
+    {
+      "frame": 2150,
+      "badPixels": 0,
+      "totalPixels": 2073600,
+      "ratio": 0,
+      "pass": true
+    },
+    {
+      "frame": 4614,
+      "badPixels": 0,
+      "totalPixels": 2073600,
+      "ratio": 0,
+      "pass": true
+    }
+  ],
+  "pass": true
+}
