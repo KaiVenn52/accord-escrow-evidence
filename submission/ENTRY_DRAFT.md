@@ -29,3 +29,5 @@ Repository: https://github.com/KaiVenn52/accord-escrow-evidence
 Static demo address: https://kaivenn52.github.io/accord-escrow-evidence/ (deployment verification recorded in PUBLICATION.md).
 
 Code license: MIT, approved by the owner; active text at repository-root LICENSE. Demo video and team identity remain outstanding. Public source and hosting do not establish a registered or accepted hackathon entry.
+
+Oct 27 final-materials update: the English video is complete at https://kaivenn52.github.io/accord-escrow-evidence/walkthrough.html ; see FINAL_REVIEW.md and FORM_DRAFT.json for the prepared entry and unresolved human declarations. No public-chain or DON deployment is claimed. Public static hosting is verified separately.

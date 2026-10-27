@@ -1,0 +1,28 @@
+WEBVTT
+
+00:00:00.333 --> 00:00:14.733
+A contractor says the software is delivered. Finance sees a funded escrow. Legal still needs the exact artifact, client acceptance, and a clear view of anything blocking release. This is Accord.
+
+00:00:16.133 --> 00:00:34.233
+Start with the accepted delivery fixture. Accord compares the agreed terms with the observed delivery and escrow state. All checks pass, producing ready for human review. The six demonstration scenarios are synthetic. No payment is authorized.
+
+00:00:35.633 --> 00:00:49.500
+Change the delivered artifact and the commitment no longer matches. Accord highlights the failing row, places the review on hold, and records the reason. A funded escrow cannot repair broken evidence.
+
+00:00:50.900 --> 00:01:07.600
+An open dispute also blocks review, even when the document matches. The policy checks the beneficiary, amount, client acceptance, challenge period, finality, and snapshot freshness. Each condition has an explicit failure reason.
+
+00:01:09.000 --> 00:01:30.067
+The actual TypeScript workflow uses the official Chainlink CRE SDK. HTTP consensus establishes the delivery content. A finalized EVM header pins the escrow read to one block. Client acceptance comes from the contract. The same deterministic policy produces the receipt.
+
+00:01:31.467 --> 00:01:49.967
+This is the saved output from a successful official CRE CLI simulation. Matching delivery returned review ready, with human authorization required. This run used a private EVM and controlled local HTTP providers. Broadcasting was disabled.
+
+00:01:51.367 --> 00:02:11.233
+A second actual CLI run changed the delivery bytes. The workflow executed successfully and returned hold, with delivery commitment mismatch. Both simulations exited zero. These logs demonstrate local orchestration, not a live decentralized oracle network deployment.
+
+00:02:12.633 --> 00:02:29.733
+Import the portable result into the desk to reproduce its recorded fingerprint. Accord validates the file and evaluates the evidence at its original time. The import is unsigned historical replay. It does not authenticate the source or query a live chain.
+
+00:02:31.133 --> 00:02:43.233
+Accord turns scattered delivery evidence into a reproducible review record. The public source and demo are available now. The human retains legal judgment and payment authorization.

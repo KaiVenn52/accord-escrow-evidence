@@ -1,0 +1,135 @@
+{
+  "idle": {
+    "pageH": 1359,
+    "elements": {
+      ".case-heading": {
+        "x": 306,
+        "y": 128,
+        "w": 1532,
+        "h": 81
+      },
+      ".evidence-panel": {
+        "x": 306,
+        "y": 451,
+        "w": 1234,
+        "h": 719.34375
+      },
+      ".decision-panel": {
+        "x": 1562,
+        "y": 451,
+        "w": 276,
+        "h": 516.109375
+      }
+    }
+  },
+  "clean": {
+    "pageH": 1345,
+    "elements": {
+      ".case-heading": {
+        "x": 306,
+        "y": 128,
+        "w": 1532,
+        "h": 81
+      },
+      ".evidence-panel": {
+        "x": 306,
+        "y": 451,
+        "w": 1234,
+        "h": 719.34375
+      },
+      ".decision-panel": {
+        "x": 1562,
+        "y": 451,
+        "w": 276,
+        "h": 611.515625
+      }
+    }
+  },
+  "tampered": {
+    "pageH": 1387,
+    "elements": {
+      ".case-heading": {
+        "x": 306,
+        "y": 128,
+        "w": 1532,
+        "h": 81
+      },
+      ".evidence-panel": {
+        "x": 306,
+        "y": 451,
+        "w": 1234,
+        "h": 719.34375
+      },
+      ".decision-panel": {
+        "x": 1562,
+        "y": 451,
+        "w": 276,
+        "h": 559.734375
+      }
+    }
+  },
+  "disputed": {
+    "pageH": 1429,
+    "elements": {
+      ".case-heading": {
+        "x": 306,
+        "y": 128,
+        "w": 1532,
+        "h": 81
+      },
+      ".evidence-panel": {
+        "x": 306,
+        "y": 451,
+        "w": 1234,
+        "h": 719.34375
+      },
+      ".decision-panel": {
+        "x": 1562,
+        "y": 451,
+        "w": 276,
+        "h": 559.734375
+      }
+    }
+  },
+  "imported": {
+    "pageH": 1706,
+    "elements": {
+      ".case-heading": {
+        "x": 306,
+        "y": 128,
+        "w": 1532,
+        "h": 81
+      },
+      ".evidence-panel": {
+        "x": 306,
+        "y": 544.78125,
+        "w": 1234,
+        "h": 860.53125
+      },
+      ".decision-panel": {
+        "x": 1562,
+        "y": 544.78125,
+        "w": 276,
+        "h": 559.734375
+      },
+      ".import-banner": {
+        "x": 306,
+        "y": 287,
+        "w": 1532,
+        "h": 73.78125
+      }
+    }
+  },
+  "workflow": {
+    "pageH": 1080,
+    "elements": {}
+  },
+  "cli-ready": {
+    "pageH": 1080,
+    "elements": {}
+  },
+  "cli-hold": {
+    "pageH": 1080,
+    "elements": {}
+  }
+}

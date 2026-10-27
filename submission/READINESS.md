@@ -2,6 +2,8 @@
 
 **Decision: public GitHub source, approved MIT license and GitHub Pages demo published and verified Oct 27 MYT. Local implementation and official CRE CLI simulation evidence are available. Registration and final submission remain unperformed.**
 
+**Final-materials update:** the 2m44s English video is complete and independently reviewed; its source and review live in video/. The owner completed DoraHacks login and the real Build editor has been populated. Both agreement panels were inspected without acceptance. FINAL_REVIEW.md supersedes the earlier form/video pending notes below. No public DoraHacks Build has been created and no event submission has occurred.
+
 Accord is a runnable local LegalTech evidence-review prototype. On Oct 24 MYT, the official CRE CLI v1.38.0 successfully executed the compiled workflow against controlled loopback HTTP and a private EVM chain. The matching delivery returned REVIEW_READY; a second actual CLI run with altered delivery returned HOLD. Both runs exited 0 with HUMAN_REQUIRED and broadcasting disabled. These are local CLI simulations, not public Sepolia observations or live DON deployment.
 
 ## Verified evidence

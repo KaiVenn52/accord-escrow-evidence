@@ -25,6 +25,10 @@ $evidenceNames = @(
     'publication-run.json','public-qa.json','public-desktop.png','public-mobile.png'
 )
 $paths += $evidenceNames | ForEach-Object { 'evidence/' + $_ }
+$paths += @('public/walkthrough.html','public/accord-demo.mp4','public/accord-demo.vtt','public/demo-poster.png','video/package.json','video/package-lock.json','video/DESIGN.md','video/README.md','video/REVIEW.md','video/narration.json','video/timeline.json','video/voice.json','video/synthesize.ps1','video/prepare-timeline.mjs','video/render.mjs')
+foreach($folder in @('video/src','video/public/audio','video/public/textures')) {
+    $paths += Get-ChildItem -LiteralPath (Join-Path $projectRoot $folder) -File | ForEach-Object { $_.FullName.Substring($projectRoot.Length + 1).Replace('\','/') }
+}
 $paths = @($paths | Sort-Object -Unique)
 $manifest = @()
 foreach ($relative in $paths) {

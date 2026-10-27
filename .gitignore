@@ -12,5 +12,8 @@ scripts/.capture-cre-result.mjs
 tests/.*.mjs
 release/
 .registration-audit.mjs
+video/node_modules/
+video/out/
+video/.cache/
 *.wasm
 !evidence/*.wasm

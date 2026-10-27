@@ -6,6 +6,8 @@ A narrow LegalTech workflow for reviewing software-delivery escrow. Accord recon
 
 [Source repository](https://github.com/KaiVenn52/accord-escrow-evidence) · [Demo address](https://kaivenn52.github.io/accord-escrow-evidence/) · [Deployment workflow](https://github.com/KaiVenn52/accord-escrow-evidence/actions/workflows/pages.yml)
 
+[Watch the English walkthrough](https://kaivenn52.github.io/accord-escrow-evidence/walkthrough.html) — 2 minutes 44 seconds, 1080p, with locally synthesized narration. It shows real product states and saved official CLI outputs. [Video source and independent review](video/README.md).
+
 The static demo is deployed through GitHub Actions. Its workflow runs the test suite and builds with the repository subpath before deployment. Hosting this UI does not deploy an escrow contract or CRE workflow. Registration and final hackathon submission remain separate owner actions.
 
 **Official CRE simulation verified (2026-10-24 MYT):** CLI v1.38.0 executed the real WASM workflow with local HTTP and private EVM providers. Matching delivery returned REVIEW_READY; altered delivery returned HOLD with Delivery commitment mismatch. Both runs exited 0. Raw logs, extracted results and reproducible bundles are in `evidence/cre-*`. No live DON deployment or public-chain transaction is claimed.

@@ -1,0 +1,7 @@
+﻿{
+    "engine":  "Windows System.Speech",
+    "voice":  "Microsoft David Desktop",
+    "language":  "en-US",
+    "rate":  0,
+    "externalVoiceService":  false
+}

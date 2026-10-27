@@ -1,5 +1,7 @@
 # Submission form review — 2026-10-24 MYT
 
+**Oct 27 form update:** owner login is complete. The real Build editor has been inspected and populated, and both submission agreement panels have been read without acceptance. See FINAL_REVIEW.md for the current field mapping and precise final boundary. The original Oct 24 access blocker below is historical.
+
 **Publication update, Oct 27 MYT:** the owner approved public source, MIT and GitHub Pages. The repository now exists at https://github.com/KaiVenn52/accord-escrow-evidence and the deployment is tracked in `PUBLICATION.md`. References below to a proposed release or pending license describe the Oct 24 review snapshot. The actual event form is still uninspected; publication does not resolve those eligibility questions.
 
 The actual registration and submission fields have **not** been inspected. A fresh, unauthenticated Microsoft Edge session opened the official event URL and received a human-verification page before the event content. The agent did not attempt the challenge, register, sign in to DoraHacks, submit a form or accept terms. Official CRE CLI authentication is separate from DoraHacks authentication.

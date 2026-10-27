@@ -1,0 +1,98 @@
+{
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "total": 4929,
+  "shots": [
+    {
+      "id": "problem",
+      "title": "Delivery evidence. One review record.",
+      "caption": "A matching hash alone cannot establish entitlement to payment.",
+      "texture": "idle.png",
+      "voice": "A contractor says the software is delivered. Finance sees a funded escrow. Legal still needs the exact artifact, client acceptance, and a clear view of anything blocking release. This is Accord.",
+      "from": 0,
+      "voiceFrames": 432,
+      "duration": 474
+    },
+    {
+      "id": "ready",
+      "title": "Reconcile before recommending release",
+      "caption": "Synthetic fixture · REVIEW_READY · HUMAN_REQUIRED",
+      "texture": "clean.png",
+      "voice": "Start with the accepted delivery fixture. Accord compares the agreed terms with the observed delivery and escrow state. All checks pass, producing ready for human review. The six demonstration scenarios are synthetic. No payment is authorized.",
+      "from": 474,
+      "voiceFrames": 543,
+      "duration": 585
+    },
+    {
+      "id": "altered",
+      "title": "Changed bytes stop the review",
+      "caption": "The altered artifact fails its committed delivery fingerprint.",
+      "texture": "tampered.png",
+      "voice": "Change the delivered artifact and the commitment no longer matches. Accord highlights the failing row, places the review on hold, and records the reason. A funded escrow cannot repair broken evidence.",
+      "from": 1059,
+      "voiceFrames": 416,
+      "duration": 458
+    },
+    {
+      "id": "dispute",
+      "title": "A document match cannot override a dispute",
+      "caption": "Contract state is part of the decision.",
+      "texture": "disputed.png",
+      "voice": "An open dispute also blocks review, even when the document matches. The policy checks the beneficiary, amount, client acceptance, challenge period, finality, and snapshot freshness. Each condition has an explicit failure reason.",
+      "from": 1517,
+      "voiceFrames": 501,
+      "duration": 543
+    },
+    {
+      "id": "workflow",
+      "title": "The actual Chainlink CRE workflow",
+      "caption": "HTTP consensus → finalized EVM read → shared policy → review receipt",
+      "texture": "workflow.png",
+      "voice": "The actual TypeScript workflow uses the official Chainlink CRE SDK. HTTP consensus establishes the delivery content. A finalized EVM header pins the escrow read to one block. Client acceptance comes from the contract. The same deterministic policy produces the receipt.",
+      "from": 2060,
+      "voiceFrames": 632,
+      "duration": 674
+    },
+    {
+      "id": "cli-ready",
+      "title": "Saved official CLI run: matching delivery",
+      "caption": "Actual CLI simulation · private EVM + controlled local HTTP · exit 0",
+      "texture": "cli-ready.png",
+      "voice": "This is the saved output from a successful official CRE CLI simulation. Matching delivery returned review ready, with human authorization required. This run used a private EVM and controlled local HTTP providers. Broadcasting was disabled.",
+      "from": 2734,
+      "voiceFrames": 555,
+      "duration": 597
+    },
+    {
+      "id": "cli-hold",
+      "title": "Saved official CLI run: altered delivery",
+      "caption": "Successful execution correctly returns HOLD for altered evidence.",
+      "texture": "cli-hold.png",
+      "voice": "A second actual CLI run changed the delivery bytes. The workflow executed successfully and returned hold, with delivery commitment mismatch. Both simulations exited zero. These logs demonstrate local orchestration, not a live decentralized oracle network deployment.",
+      "from": 3331,
+      "voiceFrames": 596,
+      "duration": 638
+    },
+    {
+      "id": "replay",
+      "title": "Reproduce the review fingerprint",
+      "caption": "Unsigned historical replay · not a live chain query or source authentication",
+      "texture": "imported.png",
+      "voice": "Import the portable result into the desk to reproduce its recorded fingerprint. Accord validates the file and evaluates the evidence at its original time. The import is unsigned historical replay. It does not authenticate the source or query a live chain.",
+      "from": 3969,
+      "voiceFrames": 513,
+      "duration": 555
+    },
+    {
+      "id": "close",
+      "title": "Evidence first. Human decision.",
+      "caption": "Open source under MIT · 31 tests passing · public demo available",
+      "texture": "",
+      "voice": "Accord turns scattered delivery evidence into a reproducible review record. The public source and demo are available now. The human retains legal judgment and payment authorization.",
+      "from": 4524,
+      "voiceFrames": 363,
+      "duration": 405
+    }
+  ]
+}
