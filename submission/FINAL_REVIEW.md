@@ -13,6 +13,8 @@
 
 The complete English description and brief have been entered in the authenticated DoraHacks Create a new Build editor. Local backup: FORM_DRAFT.json. This is a populated browser editor, not a server-saved Build or accepted event submission. No Create, Register or Submit for Review final action has been taken.
 
+The public video player is now deployed and tested: HTTP 200, reviewed SHA-256 matched against the full public file, playback and seek succeeded, nine English caption cues loaded, and desktop/phone checks passed with no console errors. The exact browser report is evidence/video-qa.json. A current unsaved-form screenshot is preserved locally at evidence/dorahacks-prepared-20261027.png for owner review.
+
 ## Video evidence
 
 Reviewed file SHA256: A61E743E5F0B4B4DB072F6F19B4535611503132E6C8EEAB17AEF7B532EFA5FBA. H.264, 1920×1080, 30 fps, 4,929 frames, video duration 164.3 s; AAC mono 22,050 Hz, container duration 164.34644 s. Independent full decode passed; mean audio -22.1 dB, peak -1.4 dB. Final-frame visual and factual review passed with documented limitations in video/REVIEW.md. Voice naturalness has not been assessed by a human listener. No BGM, generated images or fake terminal execution.

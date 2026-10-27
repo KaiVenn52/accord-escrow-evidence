@@ -18,3 +18,9 @@ The live demo returned HTTP 200 and passed Microsoft Edge browser QA at 1440×11
 The first post-deployment browser pass did not apply the stylesheet and failed layout validation. A fresh session, now explicitly checking that the deployed stylesheet applies before interaction checks, passed. No UI source change was needed. These observations establish successful tested loads, not an uptime guarantee. `node scripts/public-qa.mjs` repeats the public checks.
 
 This publishes the static operations desk, source and curated execution evidence. The two CRE runs use private EVM and controlled HTTP providers. Hosting does not create a public escrow contract, public provider integration or live CRE DON deployment. No event registration, terms acceptance, final submission or external organizer message has occurred. The demo video remains unrecorded.
+
+## English video release — completed Oct 27 / reviewed through Oct 28 MYT
+
+The earlier unrecorded-video note is superseded. The 2m44s English walkthrough is published at https://kaivenn52.github.io/accord-escrow-evidence/walkthrough.html with the direct reviewed MP4, poster and English WebVTT captions. Source commit `36b631f` was deployed successfully by [run 40536080091](https://github.com/KaiVenn52/accord-escrow-evidence/actions/runs/40536080091). `evidence/video-qa.json` confirms live HTTP 200, matching reviewed media hash, playback, seeking, nine caption cues and phone layout without overflow or console errors. The live video bytes match the independent review in video/REVIEW.md. No new CRE execution or chain deployment follows from publishing this video.
+
+The authenticated DoraHacks Build editor is populated, but Create and Submit for Review remain unperformed. The owner must decide on the actual agreement acceptance and final entry; see FINAL_REVIEW.md.

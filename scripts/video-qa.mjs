@@ -1,0 +1,30 @@
+import {chromium} from 'playwright';
+import assert from 'node:assert/strict';
+import {writeFileSync} from 'node:fs';
+import {createHash} from 'node:crypto';
+const url='https://kaivenn52.github.io/accord-escrow-evidence/walkthrough.html';
+const videoUrl=new URL('accord-demo.mp4',url).href;
+const media=await fetch(videoUrl);assert.equal(media.status,200);
+const bytes=Buffer.from(await media.arrayBuffer());
+const sha256=createHash('sha256').update(bytes).digest('hex');
+assert.equal(sha256,'a61e743e5f0b4b4db072f6f19b4535611503132e6c8eeab17aef7b532efa5fba');
+const browser=await chromium.launch({channel:'msedge',headless:true});
+const errors=[];
+try{
+ const page=await browser.newPage({viewport:{width:1440,height:1100}});
+ page.on('pageerror',e=>errors.push(e.message));page.on('console',m=>{if(m.type()==='error')errors.push(m.text());});
+ const response=await page.goto(url,{waitUntil:'networkidle',timeout:60000});assert.equal(response.status(),200);
+ await page.getByRole('heading',{name:'Delivery evidence. One review record.',exact:true}).waitFor();
+ await page.waitForFunction(()=>document.querySelector('video')?.readyState>=1);
+ const metadata=await page.locator('video').evaluate(v=>({duration:v.duration,width:v.videoWidth,height:v.videoHeight,controls:v.controls}));
+ assert.ok(Math.abs(metadata.duration-164.34644)<.2);assert.equal(metadata.width,1920);assert.equal(metadata.height,1080);assert.equal(metadata.controls,true);
+ await page.locator('video').evaluate(async v=>{v.muted=true;v.currentTime=90;v.textTracks[0].mode='hidden';await v.play();});
+ await page.waitForFunction(()=>document.querySelector('video').currentTime>90.5);
+ await page.locator('video').evaluate(v=>v.pause());
+ await page.waitForFunction(()=>document.querySelector('video').textTracks[0].cues?.length===9);
+ await page.screenshot({path:'evidence/video-player.png',fullPage:true});
+ await page.setViewportSize({width:390,height:844});assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));await page.screenshot({path:'evidence/video-player-mobile.png',fullPage:true});
+ assert.deepEqual(errors,[]);
+ const report={checkedAt:new Date().toISOString(),url,videoUrl,status:response.status(),bytes:bytes.length,sha256,metadata,checks:{pageIdentity:true,publicMediaMatchesReviewedHash:true,playback:true,seeking:true,nineEnglishCaptionCues:true,mobileNoOverflow:true},consoleErrors:errors};
+ writeFileSync('evidence/video-qa.json',JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report,null,2));
+}finally{await browser.close();}

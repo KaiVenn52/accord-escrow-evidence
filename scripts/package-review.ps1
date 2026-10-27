@@ -22,7 +22,8 @@ $evidenceNames = @(
     'ui-qa.json','ui-test.txt','ui-desktop.png','ui-mobile.png','ui-cre-ready.png','ui-cre-tampered.png',
     'official-overview-20261024.md','official-bounty-20261024.md',
     'registration-public-page.txt','registration-public-page.png','registration-public-links.json',
-    'publication-run.json','public-qa.json','public-desktop.png','public-mobile.png'
+    'publication-run.json','public-qa.json','public-desktop.png','public-mobile.png',
+    'video-media-probe.json','video-qa.json','video-player.png','video-player-mobile.png','official-detail-20261027.md'
 )
 $paths += $evidenceNames | ForEach-Object { 'evidence/' + $_ }
 $paths += @('public/walkthrough.html','public/accord-demo.mp4','public/accord-demo.vtt','public/demo-poster.png','video/package.json','video/package-lock.json','video/DESIGN.md','video/README.md','video/REVIEW.md','video/narration.json','video/timeline.json','video/voice.json','video/synthesize.ps1','video/prepare-timeline.mjs','video/render.mjs')
