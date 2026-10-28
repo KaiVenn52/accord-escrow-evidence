@@ -1,4 +1,6 @@
-# Official rules audit — refreshed 2026-10-24 (Asia/Kuala_Lumpur)
+# Official rules audit — refreshed 2026-10-28 (Asia/Kuala_Lumpur)
+
+Oct 28 refresh: the current official bounty still lists two $1,000 winners and requires CRE orchestration, a blockchain plus an external source, and successful CLI simulation or live deployment. The event detail continues to say prize amounts are discretionary. The public event poster says youth-focused events are included, without defining a universal age limit. Public Build 50435 is now created after explicit Build terms confirmation; the event submission agreement remains unchecked. These facts supersede earlier no-terms/no-form observations below. No eligibility or winner designation is inferred from creation.
 
 ## Sources
 

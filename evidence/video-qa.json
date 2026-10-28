@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-27T15:59:48.625Z",
+  "checkedAt": "2026-10-28T05:41:36.453Z",
   "url": "https://kaivenn52.github.io/accord-escrow-evidence/walkthrough.html",
   "videoUrl": "https://kaivenn52.github.io/accord-escrow-evidence/accord-demo.mp4",
   "status": 200,
@@ -11,12 +11,14 @@
     "height": 1080,
     "controls": true
   },
+  "captionCues": 40,
   "checks": {
     "pageIdentity": true,
     "publicMediaMatchesReviewedHash": true,
     "playback": true,
     "seeking": true,
-    "nineEnglishCaptionCues": true,
+    "shortEnglishCaptionCues": true,
+    "captionLineLimits": true,
     "mobileNoOverflow": true
   },
   "consoleErrors": []

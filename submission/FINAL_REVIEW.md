@@ -16,7 +16,7 @@ The complete entry is saved as public Build 50435. Local backup: FORM_DRAFT.json
 
 The BLI event Build Submission dialog has Accord selected and Looking for teammates set to No. The event agreement checkbox remains unchecked and Submit for Review has not been clicked. No separate track or bounty selection is displayed in this dialog. The target remains the CRE bounty, but no bounty-specific application or organizer acceptance is claimed. Local evidence: evidence/dorahacks-build-created-20261028.png and evidence/dorahacks-ready-before-submit-20261028.png.
 
-The public video player is now deployed and tested: HTTP 200, reviewed SHA-256 matched against the full public file, playback and seek succeeded, nine English caption cues loaded, and desktop/phone checks passed with no console errors. The exact browser report is evidence/video-qa.json. A current unsaved-form screenshot is preserved locally at evidence/dorahacks-prepared-20261027.png for owner review.
+The public video player is deployed and tested: HTTP 200, reviewed SHA-256 matched against the full public file, playback and seek succeeded, 40 short English caption cues loaded, and desktop/phone checks passed with no console errors. The exact browser report is evidence/video-qa.json. The current pre-submission screenshot is evidence/dorahacks-ready-before-submit-20261028.png; the earlier Oct 27 unsaved-editor screenshot is historical.
 
 ## Video evidence
 
