@@ -25,6 +25,8 @@ On Oct 27, the owner completed DoraHacks login. The existing account displays Ka
 
 The Build editor contains logo type, name, brief description, tags, optional team information, links, optional organizer-only contact information and a rich-text/Markdown description. The prepared draft uses the platform's letter-logo option and project links. No private contact data, wallet address, age, citizenship or team-member identity was invented or transmitted.
 
+**Oct 28 creation validation:** following the owner's instruction to complete all steps before final submission, Create was clicked. The platform rejected creation with `Contact information is required`; no Build ID or created-project result was returned. The actual contact dialog requires Telegram as the primary contact and a backup chosen from Discord, WhatsApp or WeChat. The earlier assumption that contact was optional is superseded. The platform says those fields are private to DoraHacks staff and organizers of applied-to hackathons. Real contact data and permission to disclose it have been requested from the owner. Do not guess an account or use the public X handle as a Telegram identity. No contact data belongs in the public repository or source archive.
+
 The Video field shows a YouTube example, but accepted the self-hosted player URL in the editor without an immediate displayed error. Successful final validation is not established until the server processes creation; if the platform requires a particular video host, resolve that separately rather than claiming an upload occurred.
 
 ## Agreements reviewed, not accepted

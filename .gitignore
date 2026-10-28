@@ -15,5 +15,6 @@ release/
 video/node_modules/
 video/out/
 video/.cache/
+submission/private/
 *.wasm
 !evidence/*.wasm
