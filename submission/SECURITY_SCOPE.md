@@ -1,0 +1,9 @@
+# Dependency scope — Oct 28, 2026
+
+The browser's direct Zod dependency is pinned to 4.6.7, beyond the 4.6.6 fix for [GHSA-mrhx-c7xc-m3w5](https://github.com/advisories/GHSA-mrhx-c7xc-m3w5). All import paths also enforce a 128 KiB file limit before JSON/schema validation, accept a fixed object schema with no arrays, bound delivery text to 32 KiB of UTF-8, and render document content as escaped text. A consistent fingerprint does not authenticate file origin.
+
+The official CRE SDK remains pinned to 1.23.0, including its own exact Zod 3.25.76 dependency. It is used by the workflow/toolchain and is not imported into the static browser app. Its old Zod version still triggers the advisory through the SDK, so the full dependency tree is not claimed audit-clean. Do not force an incompatible SDK override or downgrade to npm audit's suggested 0.0.0 merely to suppress the warning. A supported upstream update needs separate compile and real CLI validation. The saved WASM and CLI executions remain historical artifacts from the original dependency set; this frontend update is not a new CRE execution.
+
+Ganache and other development tools have additional audit findings. They operate in the controlled private test environment; they are not shipped as a hosted RPC service or browser payment runtime. No production custody/security-audit claim follows from passing the test suite. The demo Solidity escrow still lacks refund and dispute-resolution paths and must not hold real customer funds.
+
+Static replay assets are copies of the two original project-controlled logs and bundles. The build checks all four files byte for byte against their repository originals before packaging. There are no credentials or customer documents in those public fixtures. Owner-only platform contact details are excluded from the repository and review archive.

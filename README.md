@@ -8,6 +8,16 @@ A narrow LegalTech workflow for reviewing software-delivery escrow. Accord recon
 
 [Watch the English walkthrough](https://kaivenn52.github.io/accord-escrow-evidence/walkthrough.html) — 2 minutes 44 seconds, 1080p, with locally synthesized narration. It shows real product states and saved official CLI outputs. [Video source and independent review](video/README.md).
 
+## Review the working evidence in one minute
+
+Open the [desk](https://kaivenn52.github.io/accord-escrow-evidence/) and select **Matching delivery** under **Reproduce the recorded CRE runs**. The browser loads the saved local-provider CLI evidence and reproduces its REVIEW_READY fingerprint. Select **Altered delivery** to reproduce HOLD and its delivery-commitment mismatch. Expand **Execution records & scope** to inspect both original logs and the actual CRE workflow. No download, account or wallet is needed.
+
+The practical decision is narrow: before finance considers releasing a software milestone, legal reviews whether the exact delivered bytes, agreed beneficiary and amount, recorded payer acceptance, challenge period and dispute state agree. A document hash alone cannot answer those questions. CRE joins the external delivery response with a pinned EVM observation; the receipt preserves the evidence behind the recommendation. It does not decide legal entitlement or execute payment.
+
+The replay files are unsigned historical records; browser verification proves internal fingerprint consistency, not source identity or CRE execution. The saved official CLI logs are separate execution evidence. For integration details and exact scope, see the sections below.
+
+**DoraHacks:** [public Build 50435](https://dorahacks.io/build/50435) was created Oct 28 with owner-approved contact disclosure and Build terms acceptance. The BLI activity submission remains prepared but unsubmitted, with the final activity agreement unchecked.
+
 The static demo is deployed through GitHub Actions. Its workflow runs the test suite and builds with the repository subpath before deployment. Hosting this UI does not deploy an escrow contract or CRE workflow. Registration and final hackathon submission remain separate owner actions.
 
 **Official CRE simulation verified (2026-10-24 MYT):** CLI v1.38.0 executed the real WASM workflow with local HTTP and private EVM providers. Matching delivery returned REVIEW_READY; altered delivery returned HOLD with Delivery commitment mismatch. Both runs exited 0. Raw logs, extracted results and reproducible bundles are in `evidence/cre-*`. No live DON deployment or public-chain transaction is claimed.

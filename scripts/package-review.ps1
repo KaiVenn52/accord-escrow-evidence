@@ -28,6 +28,7 @@ $evidenceNames = @(
 )
 $paths += $evidenceNames | ForEach-Object { 'evidence/' + $_ }
 $paths += @('public/walkthrough.html','public/accord-demo.mp4','public/accord-demo.vtt','public/demo-poster.png','video/package.json','video/package-lock.json','video/DESIGN.md','video/README.md','video/REVIEW.md','video/narration.json','video/timeline.json','video/voice.json','video/synthesize.ps1','video/prepare-timeline.mjs','video/render.mjs','video/parity.mjs')
+$paths += @('video/captions.mjs','public/evidence/cre-ready-bundle.json','public/evidence/cre-tampered-bundle.json','public/evidence/cre-simulation-success.txt','public/evidence/cre-simulation-tampered.txt')
 foreach($folder in @('video/src','video/public/audio','video/public/textures')) {
     $paths += Get-ChildItem -LiteralPath (Join-Path $projectRoot $folder) -File | ForEach-Object { $_.FullName.Substring($projectRoot.Length + 1).Replace('\','/') }
 }

@@ -1,6 +1,6 @@
 # Submission form review — 2026-10-24 MYT
 
-**Oct 27 form update:** owner login is complete. The real Build editor has been inspected and populated, and both submission agreement panels have been read without acceptance. See FINAL_REVIEW.md for the current field mapping and precise final boundary. The original Oct 24 access blocker below is historical.
+**Oct 28 current state:** public Build 50435 is created. Owner-provided contact details were entered privately with authorization; Build terms were accepted only after explicit action-time confirmation. The event dialog has Accord selected, No for teammates, an unchecked activity agreement and an unclicked Submit for Review. See FINAL_REVIEW.md. All access-blocker and uninspected-form notes below are the historical Oct 24 snapshot, superseded by this update.
 
 **Publication update, Oct 27 MYT:** the owner approved public source, MIT and GitHub Pages. The repository now exists at https://github.com/KaiVenn52/accord-escrow-evidence and the deployment is tracked in `PUBLICATION.md`. References below to a proposed release or pending license describe the Oct 24 review snapshot. The actual event form is still uninspected; publication does not resolve those eligibility questions.
 

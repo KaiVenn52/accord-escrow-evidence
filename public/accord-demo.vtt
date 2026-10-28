@@ -1,28 +1,148 @@
 WEBVTT
 
-00:00:00.333 --> 00:00:14.733
-A contractor says the software is delivered. Finance sees a funded escrow. Legal still needs the exact artifact, client acceptance, and a clear view of anything blocking release. This is Accord.
+00:00:00.333 --> 00:00:03.600
+A contractor says the software is
+delivered.
 
-00:00:16.133 --> 00:00:34.233
-Start with the accepted delivery fixture. Accord compares the agreed terms with the observed delivery and escrow state. All checks pass, producing ready for human review. The six demonstration scenarios are synthetic. No payment is authorized.
+00:00:03.600 --> 00:00:05.900
+Finance sees a funded escrow.
 
-00:00:35.633 --> 00:00:49.500
-Change the delivered artifact and the commitment no longer matches. Accord highlights the failing row, places the review on hold, and records the reason. A funded escrow cannot repair broken evidence.
+00:00:05.900 --> 00:00:11.933
+Legal still needs the exact artifact,
+client acceptance, and a clear view of
 
-00:00:50.900 --> 00:01:07.600
-An open dispute also blocks review, even when the document matches. The policy checks the beneficiary, amount, client acceptance, challenge period, finality, and snapshot freshness. Each condition has an explicit failure reason.
+00:00:11.933 --> 00:00:13.333
+anything blocking release.
 
-00:01:09.000 --> 00:01:30.067
-The actual TypeScript workflow uses the official Chainlink CRE SDK. HTTP consensus establishes the delivery content. A finalized EVM header pins the escrow read to one block. Client acceptance comes from the contract. The same deterministic policy produces the receipt.
+00:00:13.333 --> 00:00:14.733
+This is Accord.
 
-00:01:31.467 --> 00:01:49.967
-This is the saved output from a successful official CRE CLI simulation. Matching delivery returned review ready, with human authorization required. This run used a private EVM and controlled local HTTP providers. Broadcasting was disabled.
+00:00:16.133 --> 00:00:19.167
+Start with the accepted delivery fixture.
 
-00:01:51.367 --> 00:02:11.233
-A second actual CLI run changed the delivery bytes. The workflow executed successfully and returned hold, with delivery commitment mismatch. Both simulations exited zero. These logs demonstrate local orchestration, not a live decentralized oracle network deployment.
+00:00:19.167 --> 00:00:25.200
+Accord compares the agreed terms with the
+observed delivery and escrow state.
 
-00:02:12.633 --> 00:02:29.733
-Import the portable result into the desk to reproduce its recorded fingerprint. Accord validates the file and evaluates the evidence at its original time. The import is unsigned historical replay. It does not authenticate the source or query a live chain.
+00:00:25.200 --> 00:00:29.200
+All checks pass, producing ready for human
+review.
 
-00:02:31.133 --> 00:02:43.233
-Accord turns scattered delivery evidence into a reproducible review record. The public source and demo are available now. The human retains legal judgment and payment authorization.
+00:00:29.200 --> 00:00:32.233
+The six demonstration scenarios are
+synthetic.
+
+00:00:32.233 --> 00:00:34.233
+No payment is authorized.
+
+00:00:35.633 --> 00:00:40.100
+Change the delivered artifact and the
+commitment no longer matches.
+
+00:00:40.100 --> 00:00:45.933
+Accord highlights the failing row, places
+the review on hold, and records the
+
+00:00:45.933 --> 00:00:46.367
+reason.
+
+00:00:46.367 --> 00:00:49.500
+A funded escrow cannot repair broken
+evidence.
+
+00:00:50.900 --> 00:00:56.633
+An open dispute also blocks review, even
+when the document matches.
+
+00:00:56.633 --> 00:01:01.867
+The policy checks the beneficiary, amount,
+client acceptance, challenge period,
+
+00:01:01.867 --> 00:01:03.933
+finality, and snapshot freshness.
+
+00:01:03.933 --> 00:01:07.600
+Each condition has an explicit failure
+reason.
+
+00:01:09.000 --> 00:01:14.267
+The actual TypeScript workflow uses the
+official Chainlink CRE SDK.
+
+00:01:14.267 --> 00:01:17.433
+HTTP consensus establishes the delivery
+content.
+
+00:01:17.433 --> 00:01:23.233
+A finalized EVM header pins the escrow
+read to one block.
+
+00:01:23.233 --> 00:01:26.367
+Client acceptance comes from the contract.
+
+00:01:26.367 --> 00:01:30.067
+The same deterministic policy produces the
+receipt.
+
+00:01:31.467 --> 00:01:37.800
+This is the saved output from a successful
+official CRE CLI simulation.
+
+00:01:37.800 --> 00:01:42.567
+Matching delivery returned review ready,
+with human authorization required.
+
+00:01:42.567 --> 00:01:48.367
+This run used a private EVM and controlled
+local HTTP providers.
+
+00:01:48.367 --> 00:01:49.967
+Broadcasting was disabled.
+
+00:01:51.367 --> 00:01:56.333
+A second actual CLI run changed the
+delivery bytes.
+
+00:01:56.333 --> 00:02:01.867
+The workflow executed successfully and
+returned hold, with delivery commitment
+
+00:02:01.867 --> 00:02:02.400
+mismatch.
+
+00:02:02.400 --> 00:02:04.600
+Both simulations exited zero.
+
+00:02:04.600 --> 00:02:09.567
+These logs demonstrate local
+orchestration, not a live decentralized
+
+00:02:09.567 --> 00:02:11.233
+oracle network deployment.
+
+00:02:12.633 --> 00:02:17.633
+Import the portable result into the desk
+to reproduce its recorded fingerprint.
+
+00:02:17.633 --> 00:02:22.633
+Accord validates the file and evaluates
+the evidence at its original time.
+
+00:02:22.633 --> 00:02:25.133
+The import is unsigned historical replay.
+
+00:02:25.133 --> 00:02:29.733
+It does not authenticate the source or
+query a live chain.
+
+00:02:31.133 --> 00:02:35.800
+Accord turns scattered delivery evidence
+into a reproducible review record.
+
+00:02:35.800 --> 00:02:39.500
+The public source and demo are available
+now.
+
+00:02:39.500 --> 00:02:43.233
+The human retains legal judgment and
+payment authorization.

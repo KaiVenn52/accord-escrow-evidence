@@ -1,8 +1,10 @@
-# Readiness — publication update 2026-10-27, Asia/Kuala_Lumpur
+# Readiness — publication update 2026-10-28, Asia/Kuala_Lumpur
 
 **Decision: public GitHub source, approved MIT license and GitHub Pages demo published and verified Oct 27 MYT. Local implementation and official CRE CLI simulation evidence are available. Registration and final submission remain unperformed.**
 
-**Final-materials update:** the 2m44s English video is complete and independently reviewed; its source and review live in video/. The owner completed DoraHacks login and the real Build editor has been populated. Both agreement panels were inspected without acceptance. FINAL_REVIEW.md supersedes the earlier form/video pending notes below. No public DoraHacks Build has been created and no event submission has occurred.
+**Final-materials update:** the 2m44s English video is complete and independently reviewed; its source and review live in video/. Public DoraHacks Build 50435 was created Oct 28 after the owner supplied contacts and separately confirmed Build terms acceptance. The BLI activity dialog has Accord selected and Looking for teammates set to No. Its activity agreement remains unchecked and Submit for Review has not been clicked. FINAL_REVIEW.md supersedes historical form/video pending notes below.
+
+**Oct 28 quality pass:** the desk now directly replays both saved CLI results and links to raw logs and workflow source. The build verifies all four served evidence files against their originals. The Pages home link is corrected; private chain-ID labeling is explicit; narrow layouts put the outcome before the evidence table; acceptance-row and hexadecimal comparisons agree with policy. The direct browser Zod dependency is patched to 4.6.7. SDK/toolchain audit limitations are recorded in SECURITY_SCOPE.md. The 31 source tests passed after the dependency change. The current production build is 551 modules, JS 125.66 kB / gzip 38.51 kB. Browser and video reports are refreshed separately; the older size table below describes the earlier release. WebVTT now contains 40 short cues; the reviewed MP4 bytes are unchanged.
 
 Accord is a runnable local LegalTech evidence-review prototype. On Oct 24 MYT, the official CRE CLI v1.38.0 successfully executed the compiled workflow against controlled loopback HTTP and a private EVM chain. The matching delivery returned REVIEW_READY; a second actual CLI run with altered delivery returned HOLD. Both runs exited 0 with HUMAN_REQUIRED and broadcasting disabled. These are local CLI simulations, not public Sepolia observations or live DON deployment.
 
@@ -24,7 +26,7 @@ Accord is a runnable local LegalTech evidence-review prototype. On Oct 24 MYT, t
 | Public Sepolia contract | NOT DEPLOYED | Ganache uses chainId 11155111 for SDK compatibility. It is NOT the public Sepolia network |
 | CRE DON deployment / mainnet | NOT PERFORMED | No deployed workflow, DON execution, mainnet transaction or mainnet expenditure |
 | Hosted demo / public repository | PUBLISHED AND VERIFIED | Public KaiVenn52/accord-escrow-evidence, MIT; Pages deploy run 40358088020 passed; live HTTP 200, six scenarios, both CLI bundle replays, download and mobile layout verified; see PUBLICATION.md |
-| Registration / final submission | NOT PERFORMED | No organizer message, terms acceptance, registered entry or accepted submission |
+| Public Build / final event submission | BUILD CREATED; EVENT NOT SUBMITTED | Build 50435 is public and Build creation terms were accepted with explicit confirmation. No activity agreement acceptance, accepted event submission or organizer message |
 
 The UI supports six fixture scenarios and offline import of portable local evidence. `evidence/local-evm-bundle.json` comes from the actual private EVM run; it includes raw delivery, terms, snapshot, recorded evaluation time and receipt fingerprint. The browser recomputes the historical result and checks the fingerprint. Imported data remains unauthenticated: this is not a live chain query, signature verification, public-provider proof or CRE execution proof. Receipt-only exports are not complete import bundles.
 

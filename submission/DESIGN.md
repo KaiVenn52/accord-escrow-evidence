@@ -9,3 +9,6 @@ Scenario selection resets the current result and disables export. Session activi
 Use case labels, actual amounts and explicit states. Avoid aspirational slogans, oversized metrics, decorative arrows, invented workflow navigation, repeated feature cards, gradients, stock art and fake activity. No generated images, external fonts or remote UI dependencies are used.
 
 Evidence: `evidence/ui-before-v1.png` retains the previous screen; `ui-idle.png`, `ui-desktop.png`, `ui-hold.png`, `ui-tablet.png` and `ui-mobile.png` show revision 2.1 after browser verification. The QA report records tested behaviors and viewports. Source revision date: 2026-10-23, Asia/Kuala_Lumpur. No backend policy or contract changes were made in this UI revision.
+# Oct 28 review refinement
+
+Recorded CRE outcomes are available directly in the desk, with adjacent original execution records and an explicit unsigned replay explanation. This reduces the reviewer's setup burden without claiming a live network. The header links to the existing walkthrough and source. On narrow layouts the outcome appears before the long evidence comparison. Chain ID 11155111 is labeled as a private recording or synthetic fixture. The underlying deterministic policy and contract are unchanged.

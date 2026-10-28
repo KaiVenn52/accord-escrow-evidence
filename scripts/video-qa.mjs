@@ -2,7 +2,7 @@ import {chromium} from 'playwright';
 import assert from 'node:assert/strict';
 import {writeFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
-const url='https://kaivenn52.github.io/accord-escrow-evidence/walkthrough.html';
+const url=process.env.ACCORD_VIDEO_QA_URL??'https://kaivenn52.github.io/accord-escrow-evidence/walkthrough.html';
 const videoUrl=new URL('accord-demo.mp4',url).href;
 const media=await fetch(videoUrl);assert.equal(media.status,200);
 const bytes=Buffer.from(await media.arrayBuffer());
@@ -21,10 +21,12 @@ try{
  await page.locator('video').evaluate(async v=>{v.muted=true;v.currentTime=90;v.textTracks[0].mode='hidden';await v.play();});
  await page.waitForFunction(()=>document.querySelector('video').currentTime>90.5);
  await page.locator('video').evaluate(v=>v.pause());
- await page.waitForFunction(()=>document.querySelector('video').textTracks[0].cues?.length===9);
+ await page.waitForFunction(()=>document.querySelector('video').textTracks[0].cues?.length>9);
+ const captions=await page.locator('video').evaluate(v=>Array.from(v.textTracks[0].cues).map(c=>({start:c.startTime,end:c.endTime,text:c.text})));
+ assert.ok(captions.every((c,i)=>c.end>c.start&&c.text.split('\n').length<=2&&c.text.split('\n').every(line=>line.length<=42)&&(i===0||c.start>=captions[i-1].end)));
  await page.screenshot({path:'evidence/video-player.png',fullPage:true});
  await page.setViewportSize({width:390,height:844});assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));await page.screenshot({path:'evidence/video-player-mobile.png',fullPage:true});
  assert.deepEqual(errors,[]);
- const report={checkedAt:new Date().toISOString(),url,videoUrl,status:response.status(),bytes:bytes.length,sha256,metadata,checks:{pageIdentity:true,publicMediaMatchesReviewedHash:true,playback:true,seeking:true,nineEnglishCaptionCues:true,mobileNoOverflow:true},consoleErrors:errors};
+ const report={checkedAt:new Date().toISOString(),url,videoUrl,status:response.status(),bytes:bytes.length,sha256,metadata,captionCues:captions.length,checks:{pageIdentity:true,publicMediaMatchesReviewedHash:true,playback:true,seeking:true,shortEnglishCaptionCues:true,captionLineLimits:true,mobileNoOverflow:true},consoleErrors:errors};
  writeFileSync('evidence/video-qa.json',JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report,null,2));
 }finally{await browser.close();}
