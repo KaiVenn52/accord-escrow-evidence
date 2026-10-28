@@ -16,7 +16,7 @@ The practical decision is narrow: before finance considers releasing a software 
 
 The replay files are unsigned historical records; browser verification proves internal fingerprint consistency, not source identity or CRE execution. The saved official CLI logs are separate execution evidence. For integration details and exact scope, see the sections below.
 
-**DoraHacks:** [public Build 50435](https://dorahacks.io/build/50435) was created Oct 28 with owner-approved contact disclosure and Build terms acceptance. The BLI activity submission remains prepared but unsubmitted, with the final activity agreement unchecked.
+**DoraHacks — submitted Oct 28:** [Build 50435](https://dorahacks.io/build/50435) is submitted to BLI Legal Tech Hackathon 2 and **Under Review**. Manage Build submission confirms Track **All BUIDLs** and bounty **Best workflow with CRE - 2x $1,000**. The owner explicitly confirmed the activity agreements and final submission. This is submission evidence, not organizer acceptance or an award. See [submission receipt](submission/SUBMISSION.json).
 
 The static demo is deployed through GitHub Actions. Its workflow runs the test suite and builds with the repository subpath before deployment. Hosting this UI does not deploy an escrow contract or CRE workflow. Registration and final hackathon submission remain separate owner actions.
 

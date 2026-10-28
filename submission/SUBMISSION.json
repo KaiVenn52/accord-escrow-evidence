@@ -1,0 +1,24 @@
+{
+  "recordedAtUtc": "2026-10-28T07:54:48.013915+00:00",
+  "event": "BLI Legal Tech Hackathon 2",
+  "eventUrl": "https://dorahacks.io/hackathon/legal-hack-2026",
+  "buildName": "Accord — Escrow Evidence Desk",
+  "buildId": 50435,
+  "buildUrl": "https://dorahacks.io/build/50435",
+  "submitted": true,
+  "platformConfirmation": "Build Submitted!",
+  "status": "Under Review",
+  "track": "All BUIDLs",
+  "bountyId": 1362,
+  "bounty": "Best workflow with CRE - 2x $1,000",
+  "bountyAssociationVerifiedIn": "Manage Build submission",
+  "ownerConfirmedActivityAgreements": true,
+  "lookingForTeammates": false,
+  "organizerApproved": false,
+  "awardClaimed": false,
+  "evidence": [
+    "evidence/dorahacks-submitted-20261028.png",
+    "evidence/dorahacks-submission-status-20261028.png",
+    "evidence/dorahacks-cre-bounty-applied-20261028.png"
+  ]
+}

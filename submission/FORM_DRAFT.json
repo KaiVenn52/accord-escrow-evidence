@@ -23,8 +23,12 @@
   "buildUrl": "https://dorahacks.io/build/50435",
   "serverSaved": true,
   "buildAgreementAccepted": true,
-  "eventAgreementAccepted": false,
+  "eventAgreementAccepted": true,
   "lookingForTeammates": false,
-  "submitted": false,
-  "agreementsAccepted": false
+  "submitted": true,
+  "agreementsAccepted": true,
+  "eventStatus": "Under Review",
+  "track": "All BUIDLs",
+  "bountyId": 1362,
+  "bountyApplied": "Best workflow with CRE - 2x $1,000"
 }

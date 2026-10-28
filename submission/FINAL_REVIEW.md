@@ -14,7 +14,7 @@
 
 The complete entry is saved as public Build 50435. Local backup: FORM_DRAFT.json. On Oct 28, the owner supplied and authorized the required contacts and separately confirmed the displayed Build-creation Terms of Use Agreement at action time. After acceptance, DoraHacks displayed Successfully created Build. The public page was opened and its full description, tags and three project links were verified. This is a created Build, not an accepted event submission.
 
-The BLI event Build Submission dialog has Accord selected and Looking for teammates set to No. The event agreement checkbox remains unchecked and Submit for Review has not been clicked. No separate track or bounty selection is displayed in this dialog. The target remains the CRE bounty, but no bounty-specific application or organizer acceptance is claimed. Local evidence: evidence/dorahacks-build-created-20261028.png and evidence/dorahacks-ready-before-submit-20261028.png.
+On Oct 28 the owner explicitly confirmed the current Terms of Use Agreement and Participant Agreement and instructed final submission. Submit for Review returned Build Submitted! and Under Review. The CRE bounty was then applied for through its own Apply flow. Manage Build submission confirms Accord, Under Review, Track All BUIDLs and bounty Best workflow with CRE - 2x $1,000. No organizer acceptance or award is claimed. Current evidence: evidence/dorahacks-submitted-20261028.png, dorahacks-submission-status-20261028.png and dorahacks-cre-bounty-applied-20261028.png. Earlier pre-submission screenshots are historical.
 
 The public video player is deployed and tested: HTTP 200, reviewed SHA-256 matched against the full public file, playback and seek succeeded, 40 short English caption cues loaded, and desktop/phone checks passed with no console errors. The exact browser report is evidence/video-qa.json. The current pre-submission screenshot is evidence/dorahacks-ready-before-submit-20261028.png; the earlier Oct 27 unsaved-editor screenshot is historical.
 
@@ -34,7 +34,7 @@ The Video field shows a YouTube example, but accepted the self-hosted player URL
 
 ## Agreement status
 
-The Build-creation Terms of Use Agreement was accepted only after the owner's explicit action-time confirmation. The activity-specific submission agreement remains unaccepted. The paragraphs below record the reviewed terms and unresolved eligibility questions; they do not establish eligibility or prize entitlement.
+Both Build-creation and activity-submission agreements were accepted only after the owner's respective explicit action-time confirmations. The paragraphs below record the reviewed terms and unresolved eligibility questions; they do not establish eligibility or prize entitlement.
 
 Both submission-specific agreement panels were opened read-only. They allocate responsibility for accurate/original submissions, intellectual-property permissions, compliance and understanding event rules to the participant; organizer-related rights/reward disputes remain with the organizer. They also permit platform enforcement and future agreement changes. The panels refer to https://dorahacks.io/legal/terms for the underlying user agreement.
 
@@ -48,4 +48,4 @@ AI/prior-code policy, development-window limits, required payout currency/KYC, a
 
 ## Final human decision
 
-The authorized preparation and public Build creation are complete. Required real contacts were entered with permission; their values remain outside this repository and review archive. Stop here before event agreement acceptance and Submit for Review, as instructed by the owner. Do not add unsupported identity, team, financial or public deployment claims. Any later event agreement acceptance requires action-time confirmation, and the final event submission requires the owner's explicit instruction.
+The owner subsequently authorized final submission and expressly accepted the current activity agreements. The entry and CRE bounty application are submitted and under review. Required real contacts remain outside this repository and review archive. Do not change or withdraw the submission, send organizer messages, or claim eligibility, acceptance or an award without corresponding authorization and evidence.

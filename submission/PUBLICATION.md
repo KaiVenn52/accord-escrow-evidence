@@ -28,3 +28,7 @@ On Oct 28 the owner authorized contact disclosure and separately confirmed the B
 ## Oct 28 review refinement
 
 Source commit 24f5f65 passed a fresh locked Linux install, all 31 source tests, evidence-copy integrity checks, production build and Pages deployment in [run 40639223992](https://github.com/KaiVenn52/accord-escrow-evidence/actions/runs/40639223992). The desk now has direct recorded-result replay, links to original CLI records, explicit private-chain labels and outcome-first narrow layouts. English captions now use 40 short cues; the reviewed MP4 hash is unchanged. The current public browser/video reports supersede older nine-cue and interface snapshots above.
+
+## Final submission — Oct 28 MYT
+
+After the owner explicitly confirmed the activity agreements and final submission, DoraHacks returned Build Submitted! for Accord, Build 50435, and Under Review. The separate CRE Apply flow was completed; Manage Build submission confirms Track All BUIDLs and bounty Best workflow with CRE - 2x $1,000. SUBMISSION.json and the three submitted/status/bounty screenshots record the result. This supersedes earlier pre-submission status notes. Submission does not establish organizer acceptance, eligibility, an award or payment. No organizer message was sent.
