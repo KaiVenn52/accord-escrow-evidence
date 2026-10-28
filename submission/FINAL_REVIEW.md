@@ -1,4 +1,4 @@
-# Final submission review — 2026-10-27 MYT
+# Final submission review — 2026-10-28 MYT
 
 ## Prepared entry
 
@@ -11,7 +11,7 @@
 - License: MIT. AI-assisted implementation and dependency provenance are disclosed.
 - Target: BLI Legal Tech Hackathon 2, Best workflow with CRE bounty.
 
-The complete English description and brief have been entered in the authenticated DoraHacks Create a new Build editor. Local backup: FORM_DRAFT.json. This is a populated browser editor, not a server-saved Build or accepted event submission. No Create, Register or Submit for Review final action has been taken.
+The complete English description and brief have been entered in the authenticated DoraHacks Create a new Build editor. Local backup: FORM_DRAFT.json. This is a populated browser editor, not a server-saved Build or accepted event submission. Create was attempted on Oct 28 and rejected because required contact information is missing. No event submission or agreement acceptance has occurred.
 
 The public video player is now deployed and tested: HTTP 200, reviewed SHA-256 matched against the full public file, playback and seek succeeded, nine English caption cues loaded, and desktop/phone checks passed with no console errors. The exact browser report is evidence/video-qa.json. A current unsaved-form screenshot is preserved locally at evidence/dorahacks-prepared-20261027.png for owner review.
 
@@ -23,7 +23,7 @@ Reviewed file SHA256: A61E743E5F0B4B4DB072F6F19B4535611503132E6C8EEAB17AEF7B532E
 
 On Oct 27, the owner completed DoraHacks login. The existing account displays KaiVenn and Malaysia; this is not verification of citizenship, age or other eligibility declarations. The Submit Build dialog asks for an existing Build or offers Create new Build, asks whether the participant seeks teammates, and includes agreement to Terms of Use Agreement and Participant Agreement before Submit for Review.
 
-The Build editor contains logo type, name, brief description, tags, optional team information, links, optional organizer-only contact information and a rich-text/Markdown description. The prepared draft uses the platform's letter-logo option and project links. No private contact data, wallet address, age, citizenship or team-member identity was invented or transmitted.
+The Build editor contains logo type, name, brief description, tags, optional team information, links, required organizer-only contact information and a rich-text/Markdown description. The prepared draft uses the platform's letter-logo option and project links. No private contact data, wallet address, age, citizenship or team-member identity was invented or transmitted.
 
 **Oct 28 creation validation:** following the owner's instruction to complete all steps before final submission, Create was clicked. The platform rejected creation with `Contact information is required`; no Build ID or created-project result was returned. The actual contact dialog requires Telegram as the primary contact and a backup chosen from Discord, WhatsApp or WeChat. The earlier assumption that contact was optional is superseded. The platform says those fields are private to DoraHacks staff and organizers of applied-to hackathons. Real contact data and permission to disclose it have been requested from the owner. Do not guess an account or use the public X handle as a Telegram identity. No contact data belongs in the public repository or source archive.
 
@@ -43,4 +43,4 @@ AI/prior-code policy, development-window limits, required payout currency/KYC, a
 
 ## Final human decision
 
-The owner must review the concrete entry, video, displayed agreements and eligibility before authorizing public Build creation and event submission. Acceptance of the agreement is a separate legal action requiring confirmation at that time. If authorized, create only this prepared Accord entry and submit it to this named event/CRE bounty. Do not add unsupported identity, team, financial or public deployment claims. If another legal declaration or required unknown field appears, return that exact item for review.
+The owner has authorized completing preparation and public Build creation, with an explicit stop before final event submission. Creation remains blocked by the required real contact details. Once those details are supplied or entered by the owner, create only this prepared Accord entry and prepare its event submission. Leave the final event submission unclicked. Acceptance of the agreement is a separate legal action requiring confirmation at that time. Do not add unsupported identity, team, financial or public deployment claims. If another legal declaration or required unknown field appears, return that exact item for review.
