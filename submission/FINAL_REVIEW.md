@@ -3,6 +3,7 @@
 ## Prepared entry
 
 - Name: Accord — Escrow Evidence Desk
+- Created public Build: https://dorahacks.io/build/50435
 - Public source: https://github.com/KaiVenn52/accord-escrow-evidence
 - Static demo: https://kaivenn52.github.io/accord-escrow-evidence/
 - English video: https://kaivenn52.github.io/accord-escrow-evidence/walkthrough.html
@@ -11,7 +12,9 @@
 - License: MIT. AI-assisted implementation and dependency provenance are disclosed.
 - Target: BLI Legal Tech Hackathon 2, Best workflow with CRE bounty.
 
-The complete English description and brief have been entered in the authenticated DoraHacks Create a new Build editor. Local backup: FORM_DRAFT.json. This is a populated browser editor, not a server-saved Build or accepted event submission. The owner supplied and authorized the required contacts on Oct 28; they were entered privately. Create now opens a Terms of Use Agreement with an Agree and submit now action. That legal acceptance awaits action-time confirmation. No Build ID, event submission or agreement acceptance has occurred.
+The complete entry is saved as public Build 50435. Local backup: FORM_DRAFT.json. On Oct 28, the owner supplied and authorized the required contacts and separately confirmed the displayed Build-creation Terms of Use Agreement at action time. After acceptance, DoraHacks displayed Successfully created Build. The public page was opened and its full description, tags and three project links were verified. This is a created Build, not an accepted event submission.
+
+The BLI event Build Submission dialog has Accord selected and Looking for teammates set to No. The event agreement checkbox remains unchecked and Submit for Review has not been clicked. No separate track or bounty selection is displayed in this dialog. The target remains the CRE bounty, but no bounty-specific application or organizer acceptance is claimed. Local evidence: evidence/dorahacks-build-created-20261028.png and evidence/dorahacks-ready-before-submit-20261028.png.
 
 The public video player is now deployed and tested: HTTP 200, reviewed SHA-256 matched against the full public file, playback and seek succeeded, nine English caption cues loaded, and desktop/phone checks passed with no console errors. The exact browser report is evidence/video-qa.json. A current unsaved-form screenshot is preserved locally at evidence/dorahacks-prepared-20261027.png for owner review.
 
@@ -29,7 +32,9 @@ The Build editor contains logo type, name, brief description, tags, optional tea
 
 The Video field shows a YouTube example, but accepted the self-hosted player URL in the editor without an immediate displayed error. Successful final validation is not established until the server processes creation; if the platform requires a particular video host, resolve that separately rather than claiming an upload occurred.
 
-## Agreements reviewed, not accepted
+## Agreement status
+
+The Build-creation Terms of Use Agreement was accepted only after the owner's explicit action-time confirmation. The activity-specific submission agreement remains unaccepted. The paragraphs below record the reviewed terms and unresolved eligibility questions; they do not establish eligibility or prize entitlement.
 
 Both submission-specific agreement panels were opened read-only. They allocate responsibility for accurate/original submissions, intellectual-property permissions, compliance and understanding event rules to the participant; organizer-related rights/reward disputes remain with the organizer. They also permit platform enforcement and future agreement changes. The panels refer to https://dorahacks.io/legal/terms for the underlying user agreement.
 
@@ -43,4 +48,4 @@ AI/prior-code policy, development-window limits, required payout currency/KYC, a
 
 ## Final human decision
 
-The owner has authorized completing preparation and public Build creation, with an explicit stop before final event submission. Required real contacts have been provided and entered with permission; their values must remain outside this repository and review archive. Creation is now waiting on the displayed Terms of Use Agreement, whose acceptance requires action-time confirmation. If confirmed, create only this prepared Accord entry and prepare its event submission. Leave the final event submission unclicked. Do not add unsupported identity, team, financial or public deployment claims. If another legal declaration or required unknown field appears, return that exact item for review.
+The authorized preparation and public Build creation are complete. Required real contacts were entered with permission; their values remain outside this repository and review archive. Stop here before event agreement acceptance and Submit for Review, as instructed by the owner. Do not add unsupported identity, team, financial or public deployment claims. Any later event agreement acceptance requires action-time confirmation, and the final event submission requires the owner's explicit instruction.

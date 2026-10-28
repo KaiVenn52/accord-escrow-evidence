@@ -9,7 +9,7 @@ if (Test-Path -LiteralPath $archivePath) { throw 'Archive already exists; choose
 $paths = @('.gitignore','README.md','LICENSE','.github/workflows/pages.yml','index.html','package.json','package-lock.json','tsconfig.json','project.yaml')
 foreach ($folder in @('src','contracts','workflow','scripts','tests','submission')) {
     $paths += Get-ChildItem -LiteralPath (Join-Path $projectRoot $folder) -File -Recurse |
-        Where-Object { $_.Name -notlike '.*' -and $_.Extension -in @('.ts','.css','.sol','.json','.yaml','.mjs','.ps1','.md','.txt') } |
+        Where-Object { $_.Name -notlike '.*' -and $_.FullName -notlike (Join-Path $projectRoot 'submission/private/*') -and $_.Extension -in @('.ts','.css','.sol','.json','.yaml','.mjs','.ps1','.md','.txt') } |
         ForEach-Object { $_.FullName.Substring($projectRoot.Length + 1).Replace('\','/') }
 }
 # Deliberate evidence allowlist: never recursively package runtime or account files.
@@ -23,7 +23,8 @@ $evidenceNames = @(
     'official-overview-20261024.md','official-bounty-20261024.md',
     'registration-public-page.txt','registration-public-page.png','registration-public-links.json',
     'publication-run.json','public-qa.json','public-desktop.png','public-mobile.png',
-    'video-media-probe.json','video-qa.json','video-player.png','video-player-mobile.png','official-detail-20261027.md','video-workbench-parity.json'
+    'video-media-probe.json','video-qa.json','video-player.png','video-player-mobile.png','official-detail-20261027.md','video-workbench-parity.json',
+    'dorahacks-build-created-20261028.png','dorahacks-ready-before-submit-20261028.png'
 )
 $paths += $evidenceNames | ForEach-Object { 'evidence/' + $_ }
 $paths += @('public/walkthrough.html','public/accord-demo.mp4','public/accord-demo.vtt','public/demo-poster.png','video/package.json','video/package-lock.json','video/DESIGN.md','video/README.md','video/REVIEW.md','video/narration.json','video/timeline.json','video/voice.json','video/synthesize.ps1','video/prepare-timeline.mjs','video/render.mjs','video/parity.mjs')

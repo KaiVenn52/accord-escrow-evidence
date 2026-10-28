@@ -20,7 +20,11 @@
     "Crypto / Web3",
     "Chainlink"
   ],
-  "serverSaved": false,
+  "buildUrl": "https://dorahacks.io/build/50435",
+  "serverSaved": true,
+  "buildAgreementAccepted": true,
+  "eventAgreementAccepted": false,
+  "lookingForTeammates": false,
   "submitted": false,
   "agreementsAccepted": false
 }
